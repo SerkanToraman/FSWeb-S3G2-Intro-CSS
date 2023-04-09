@@ -1,0 +1,118 @@
+h1{
+  font-size: 40px;
+  font-family:"Chelsea Market";
+}
+p{
+  font-size: 15px;
+  font-family:"Chelsea Market";
+  text-align: center;
+}
+
+.container{
+  margin: 0 auto;
+  width :130vh;
+  
+}
+
+#geziPlan {
+  background-color: #FF764E;
+}
+#bilgi{
+  background-color: #5ED3EB;
+}
+#karsilastir{
+  background-color: #FFCD69;
+}
+
+.top-nav nav a {
+  display: inline-block;
+  font-family:"Chelsea Market" ;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 2vh 5vh 2vh;
+}
+
+.top-nav nav {
+  display: flex;
+  justify-content:space-around;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  margin: 10vh 0; 
+}
+
+#kapadokya {
+  width:40%;
+  border-radius: 50%;
+}
+
+.header-row-pic {
+  display: inline-block;
+  margin-left: 0 auto;
+  width: 45vh;
+
+}
+.header-row-text{
+  display: inline-block;
+  margin-left: 5vh;
+  
+}
+
+.content-img{
+  display: inline-block;
+  width : 80vh;
+}
+
+.pre-content{
+  background-color:#DDB9A3;
+  color: white;
+  padding: 0 5vh;
+}
+
+.mid-section-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh auto;
+}
+
+.icons{
+ width : 60vh;
+}
+
+.mid-section-img {
+  width:20%;
+  margin-left: 40%;
+  margin-top: 5vh;
+}
+
+#footer-image {
+  width:100%;
+  height: 45vh;
+  object-fit:fill;
+}
+
+.bottom-nav nav a {
+  display: inline-block;
+  font-family:"Chelsea Market" ;
+  color: white;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 2vh 10vh 2vh;
+  margin: 0 10vh;
+  margin-top: 7vh;
+  
+}
+
+.bottom-nav{
+  height: 20vh;
+  background-color:#F9E7DC ;
+}
+
+.bottom-nav nav {
+  display: flex;
+  justify-content: space-between;
+}
